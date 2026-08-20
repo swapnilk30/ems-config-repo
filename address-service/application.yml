@@ -1,4 +1,6 @@
-
+application:
+  message: Welcome From Default Profile - address-service
+      
 # Common configurations for address-service
 server:
-  port: 9093  
+  port: 9093
