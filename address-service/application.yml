@@ -1,1 +1,4 @@
 
+# Common configurations for address-service
+server:
+  port: 9093  
