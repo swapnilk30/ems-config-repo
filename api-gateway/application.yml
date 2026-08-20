@@ -1,1 +1,6 @@
-
+application:
+  message: Welcome From Default Profile - api-gateway-service
+      
+# Common configurations for api-gateway-service
+server:
+  port: 8080
