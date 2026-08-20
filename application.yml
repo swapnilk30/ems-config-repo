@@ -1,1 +1,3 @@
 # COMMON CONFIGURATION FOR ALL SERVICES
+application:
+  message: "Hello from Config Server"
