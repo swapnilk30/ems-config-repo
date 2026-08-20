@@ -1,6 +1,6 @@
 application:
   message: Welcome From Default Profile - employee-service
       
-# Common configurations
+# Common configurations for employee-service
 server:
   port: 9092
