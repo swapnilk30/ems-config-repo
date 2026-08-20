@@ -27,4 +27,6 @@ eureka:
     hostname: localhost
 
 
-
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
