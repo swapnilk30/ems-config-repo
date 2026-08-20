@@ -1,1 +1,22 @@
+spring:
+  cloud:
+    gateway:
+      server:
+        webflux:
+          routes:
+            # Auth Service
+            - id: auth-service
+              uri: lb://AUTH-SERVICE
+              predicates:
+                - Path=/auth/**
+
+            # Employee Service
+            - id: employee-service
+              uri: lb://EMPLOYEE-SERVICE
+              predicates:
+                - Path=/api/employees/**
+
+
+
+
 
