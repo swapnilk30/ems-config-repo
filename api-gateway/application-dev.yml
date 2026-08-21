@@ -15,12 +15,17 @@ spring:
               uri: lb://EMPLOYEE-SERVICE
               predicates:
                 - Path=/api/employees/**
+              filters:
+                - AuthFilter
+                
             
             # Address Service
             - id: address-service
               uri: lb://ADDRESS-SERVICE
               predicates:
                 - Path=/api/addresses/**
+              filters:
+                - AuthFilter
 
 eureka:
   client:
