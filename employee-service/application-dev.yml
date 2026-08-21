@@ -30,4 +30,4 @@ eureka:
 # Feign Client Configuration (use URLs directly)
 address:
   service:
-    url: http://localhost:8082
+    url: http://localhost:9093
